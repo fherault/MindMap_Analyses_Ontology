@@ -1,6 +1,6 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Technology Type" LOCALIZED_STYLE_REF="styles.topic" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1553612896401"><hook NAME="MapStyle">
+<node TEXT="Technology Type" LOCALIZED_STYLE_REF="styles.topic" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1549552290171"><hook NAME="MapStyle">
     <properties show_icon_for_attributes="true" fit_to_viewport="false"/>
 
 <map_styles>
@@ -412,10 +412,12 @@
 <node TEXT="R&#xe9;ponses &#xe9;motionnelles" STYLE_REF="Tech_Type_Analyses" ID="ID_959661819" CREATED="1549029085157" MODIFIED="1549362320728" HGAP_QUANTITY="740.0 px"/>
 <node TEXT="Vocalisations" STYLE_REF="Tech_Type_Analyses" ID="ID_1022630802" CREATED="1549029085160" MODIFIED="1549362313953" HGAP_QUANTITY="740.0 px"/>
 </node>
-<node TEXT="Calorimetry" STYLE_REF="Tech_Typ_Level1" POSITION="right" ID="ID_1421263387" CREATED="1549029085162" MODIFIED="1552559167414" HGAP_QUANTITY="230.0 px" VSHIFT_QUANTITY="10.0 px">
+<node TEXT="Calorimetry" STYLE_REF="Tech_Typ_Level1" POSITION="right" ID="ID_1421263387" CREATED="1549029085162" MODIFIED="1549552131226" HGAP_QUANTITY="230.0 px" VSHIFT_QUANTITY="10.0 px">
 <edge COLOR="#007c7c"/>
-<node TEXT="Labussi&#xe8;re &amp; Robin" STYLE_REF="Tech_Typ_R&#xe9;f&#xe9;rent" ID="ID_1125635213" CREATED="1549276565858" MODIFIED="1552559167411" HGAP_QUANTITY="146.0 px" VSHIFT_QUANTITY="-15.0 px"/>
-<node STYLE_REF="Tech_Typ_Metadata" ID="ID_371999792" CREATED="1549458263706" MODIFIED="1552559196077" LINK="template_example/calorimetryanalysis.xlsx" HGAP_QUANTITY="131.0 px" VSHIFT_QUANTITY="-29.0 px"><richcontent TYPE="NODE">
+<node TEXT="Labussi&#xe8;re &amp; Robin" STYLE_REF="Tech_Typ_R&#xe9;f&#xe9;rent" ID="ID_1125635213" CREATED="1549276565858" MODIFIED="1549362298486" HGAP_QUANTITY="740.0 px" VSHIFT_QUANTITY="40.0 px"/>
+<node TEXT="Energie brute (liquide)" STYLE_REF="Tech_Type_Analyses" ID="ID_729981733" CREATED="1549029085164" MODIFIED="1549362300477" HGAP_QUANTITY="740.0 px"/>
+<node TEXT="Energie brute (solide)" STYLE_REF="Tech_Type_Analyses" ID="ID_430346460" CREATED="1549029085166" MODIFIED="1549458275098" HGAP_QUANTITY="740.0 px"/>
+<node STYLE_REF="Tech_Typ_Metadata" ID="ID_371999792" CREATED="1549458263706" MODIFIED="1551430173649" LINK="template_example/calorimetryanalysis.xlsx" HGAP_QUANTITY="740.0 px" VSHIFT_QUANTITY="-50.0 px"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -438,14 +440,12 @@
       type de creuset
     </p>
     <p>
-      Mode de fonctionnement
+      
     </p>
   </body>
 </html>
 <!-- ^ Position is not set to relative / absolute here because of Mozilla -->
 </richcontent>
-<node TEXT="Energie brute (liquide)" STYLE_REF="Tech_Type_Analyses" ID="ID_729981733" CREATED="1549029085164" MODIFIED="1552559196074" HGAP_QUANTITY="367.0 px" VSHIFT_QUANTITY="-1.4999999552965182 pt"/>
-<node TEXT="Energie brute (solide)" STYLE_REF="Tech_Type_Analyses" ID="ID_430346460" CREATED="1549029085166" MODIFIED="1552559186900" HGAP_QUANTITY="367.0 px" VSHIFT_QUANTITY="-10.499999687075624 pt"/>
 </node>
 </node>
 <node TEXT="Cell transformation" STYLE_REF="Tech_Typ_Level1" POSITION="right" ID="ID_52681657" CREATED="1549029085168" MODIFIED="1549552143362" HGAP_QUANTITY="230.0 px" VSHIFT_QUANTITY="10.0 px">
@@ -461,16 +461,14 @@
 <node TEXT="Transformation bact&#xe9;rienne" STYLE_REF="Tech_Type_Analyses" ID="ID_1408998828" CREATED="1549029085188" MODIFIED="1549362255984" HGAP_QUANTITY="420.0 px"/>
 </node>
 </node>
-<node TEXT="Chromametry" STYLE_REF="Tech_Typ_Level1" POSITION="right" ID="ID_409648403" CREATED="1549029085191" MODIFIED="1552559353985" HGAP_QUANTITY="230.0 px" VSHIFT_QUANTITY="10.0 px">
+<node TEXT="Chromametry" STYLE_REF="Tech_Typ_Level1" POSITION="right" ID="ID_409648403" CREATED="1549029085191" MODIFIED="1549552146881" HGAP_QUANTITY="230.0 px" VSHIFT_QUANTITY="10.0 px">
 <edge COLOR="#007c00"/>
-<node TEXT="Bonhomme &amp; Dar&#xe9;" STYLE_REF="Tech_Typ_R&#xe9;f&#xe9;rent" ID="ID_624978402" CREATED="1549276645246" MODIFIED="1552559353982" HGAP_QUANTITY="91.0 px" VSHIFT_QUANTITY="-2.0 px"/>
-<node TEXT="Nombre de champs mesure&#xa;temps d&apos;attente" STYLE_REF="Tech_Typ_Metadata" ID="ID_1188665944" CREATED="1549458289613" MODIFIED="1552559361092" LINK="template_example/chromametryanalysis.xlsx" HGAP_QUANTITY="84.0 px" VSHIFT_QUANTITY="-28.0 px">
-<node TEXT="Couleur (viande/beurre)" STYLE_REF="Tech_Type_Analyses" ID="ID_1884985063" CREATED="1549029085193" MODIFIED="1552559361091" HGAP_QUANTITY="402.0 px" VSHIFT_QUANTITY="-2.9999999105930355 pt"/>
-</node>
+<node TEXT="Bonhomme &amp; Dar&#xe9;" STYLE_REF="Tech_Typ_R&#xe9;f&#xe9;rent" ID="ID_624978402" CREATED="1549276645246" MODIFIED="1549362226818" HGAP_QUANTITY="740.0 px" VSHIFT_QUANTITY="30.0 px"/>
+<node TEXT="Couleur (viande/beurre)" STYLE_REF="Tech_Type_Analyses" ID="ID_1884985063" CREATED="1549029085193" MODIFIED="1549362230087" HGAP_QUANTITY="740.0 px"/>
+<node TEXT="Nombre de champs mesure&#xa;temps d&apos;attente" STYLE_REF="Tech_Typ_Metadata" ID="ID_1188665944" CREATED="1549458289613" MODIFIED="1550219048623" LINK="template_example/chromametryanalysis.xlsx" HGAP_QUANTITY="740.0 px" VSHIFT_QUANTITY="-30.0 px"/>
 </node>
 <node TEXT="Chromatography" STYLE_REF="Tech_Typ_Level1" POSITION="right" ID="ID_988844730" CREATED="1549029085195" MODIFIED="1549552150011" HGAP_QUANTITY="230.0 px" VSHIFT_QUANTITY="10.0 px">
 <edge COLOR="#007c7c"/>
-<node TEXT="Prise d&apos;essai (Vol. Masse)&#xa;Type extraction (pr&#xe9;paration sample/rendement derivation?)&#xa;etalon interne&#xa;solution calibration" STYLE_REF="Tech_Typ_Metadata" ID="ID_1232749746" CREATED="1549458743054" MODIFIED="1550218590785" LINK="template_example/gaschromatographyanalysis.xlsx" HGAP_QUANTITY="70.0 px" VSHIFT_QUANTITY="-20.0 px">
 <node TEXT="Gas chromatography" STYLE_REF="Tech_Typ_Level2" ID="ID_880633959" CREATED="1549029085197" MODIFIED="1549362202740" HGAP_QUANTITY="70.0 px" VSHIFT_QUANTITY="-10.0 px">
 <node TEXT="Le Mou&#xeb;l" STYLE_REF="Tech_Typ_R&#xe9;f&#xe9;rent" ID="ID_276312594" CREATED="1549278121626" MODIFIED="1549362202738" HGAP_QUANTITY="420.0 px" VSHIFT_QUANTITY="10.0 px"/>
 <node TEXT="Acides gras volatils" STYLE_REF="Tech_Type_Analyses" ID="ID_1605171346" CREATED="1549029085199" MODIFIED="1549362199578" HGAP_QUANTITY="420.0 px"/>
@@ -520,64 +518,60 @@
 <node TEXT="Acides Amin&#xe9;s libres" STYLE_REF="Tech_Type_Analyses" ID="ID_1450213021" CREATED="1549029085278" MODIFIED="1549361782504" HGAP_QUANTITY="420.0 px"/>
 <node TEXT="Acides Amin&#xe9;s Plasmatiques" STYLE_REF="Tech_Type_Analyses" ID="ID_10090617" CREATED="1549029085280" MODIFIED="1549361788916" HGAP_QUANTITY="420.0 px" VSHIFT_QUANTITY="-40.0 px"/>
 </node>
+<node TEXT="Prise d&apos;essai (Vol. Masse)&#xa;Type extraction (pr&#xe9;paration sample/rendement derivation?)&#xa;etalon interne&#xa;solution calibration" STYLE_REF="Tech_Typ_Metadata" ID="ID_1232749746" CREATED="1549458743054" MODIFIED="1550218590785" LINK="template_example/gaschromatographyanalysis.xlsx" HGAP_QUANTITY="70.0 px" VSHIFT_QUANTITY="-20.0 px"/>
 </node>
-</node>
-<node TEXT="Electrochemical measurement" STYLE_REF="Tech_Typ_Level1" POSITION="right" ID="ID_266222425" CREATED="1549029085281" MODIFIED="1552560015376" HGAP_QUANTITY="230.0 px" VSHIFT_QUANTITY="10.0 px">
+<node TEXT="Electrochemical measurement" STYLE_REF="Tech_Typ_Level1" POSITION="right" ID="ID_266222425" CREATED="1549029085281" MODIFIED="1551169365972" HGAP_QUANTITY="230.0 px" VSHIFT_QUANTITY="10.0 px">
 <edge COLOR="#7c0000"/>
 <node TEXT="Bonhomme, Dar&#xe9; &amp; Philau" STYLE_REF="Tech_Typ_R&#xe9;f&#xe9;rent" ID="ID_1511396296" CREATED="1549276681759" MODIFIED="1549621672241" HGAP_QUANTITY="740.0 px" VSHIFT_QUANTITY="70.0 px"/>
-<node TEXT="temps d&apos;attente&#xa;Temp&#xe9;rature" STYLE_REF="Tech_Typ_Metadata" ID="ID_423662477" CREATED="1550219136598" MODIFIED="1552560039175" HGAP_QUANTITY="126.49999664723883 pt" VSHIFT_QUANTITY="8.999999731779106 pt">
-<node TEXT="Gaz du sang" STYLE_REF="Tech_Type_Analyses" ID="ID_279263323" CREATED="1549029085282" MODIFIED="1552560039173" HGAP_QUANTITY="324.0 px" VSHIFT_QUANTITY="-4.499999865889553 pt"/>
+<node TEXT="Gaz du sang" STYLE_REF="Tech_Type_Analyses" ID="ID_279263323" CREATED="1549029085282" MODIFIED="1549361749273" HGAP_QUANTITY="740.0 px">
+<node TEXT="temps d&apos;attente&#xa;Temp&#xe9;rature" STYLE_REF="Tech_Typ_Metadata" ID="ID_423662477" CREATED="1550219136598" MODIFIED="1551166694153"/>
 </node>
 <node TEXT="Osmolarit&#xe9;" STYLE_REF="Tech_Type_Analyses" ID="ID_776340895" CREATED="1549029085283" MODIFIED="1549361739633" HGAP_QUANTITY="740.0 px"/>
 <node TEXT="Point cong&#xe9;lation" STYLE_REF="Tech_Type_Analyses" ID="ID_795318627" CREATED="1551166847776" MODIFIED="1551166927750" HGAP_QUANTITY="555.4999838620429 pt" VSHIFT_QUANTITY="1.4999999552965175 pt"/>
-<node TEXT="Tout &#xe7;a = = donn&#xe9;es qualit&#xe9;!&#xa;Prise d&apos;essais&#xa;Contr&#xf4;le pH (Calbration &#xe0; T&#xb0; mesure)&#xa;Frequence contr&#xf4;le&#xa;revoir" STYLE_REF="Tech_Typ_Metadata" ID="ID_690248430" CREATED="1549458334012" MODIFIED="1552560170638" LINK="template_example/electrochemicalmeasurementanalysis.xlsx" HGAP_QUANTITY="162.0 px" VSHIFT_QUANTITY="41.0 px">
-<node TEXT="pH (fec&#xe8;s)" STYLE_REF="Tech_Type_Analyses" ID="ID_832967113" CREATED="1549029085285" MODIFIED="1552559995774" HGAP_QUANTITY="339.0 px" VSHIFT_QUANTITY="73.49999780952936 pt"/>
-<node TEXT="pH 24 h (viande)" STYLE_REF="Tech_Type_Analyses" ID="ID_1456785649" CREATED="1549029085289" MODIFIED="1552559984220" HGAP_QUANTITY="334.0 px" VSHIFT_QUANTITY="-2.9999999105930355 pt"/>
-<node TEXT="pH 45 minutes (viande)" STYLE_REF="Tech_Type_Analyses" ID="ID_407628265" CREATED="1549029085290" MODIFIED="1552559990781" HGAP_QUANTITY="333.0 px" VSHIFT_QUANTITY="-90.74999729543933 pt"/>
+<node TEXT="pH (fec&#xe8;s)" STYLE_REF="Tech_Type_Analyses" ID="ID_832967113" CREATED="1549029085285" MODIFIED="1551169353630" HGAP_QUANTITY="741.0 px" VSHIFT_QUANTITY="21.749999351799506 pt"/>
+<node TEXT="pH 24 h (viande)" STYLE_REF="Tech_Type_Analyses" ID="ID_1456785649" CREATED="1549029085289" MODIFIED="1549361703458" HGAP_QUANTITY="740.0 px"/>
+<node TEXT="pH 45 minutes (viande)" STYLE_REF="Tech_Type_Analyses" ID="ID_407628265" CREATED="1549029085290" MODIFIED="1551169379090" HGAP_QUANTITY="741.0 px" VSHIFT_QUANTITY="-75.74999774247415 pt">
+<node TEXT="Prise d&apos;essais&#xa;Contr&#xf4;le pH (Calbration &#xe0; T&#xb0; mesure)&#xa;Frequence contr&#xf4;le" STYLE_REF="Tech_Typ_Metadata" ID="ID_690248430" CREATED="1549458334012" MODIFIED="1551169379087" LINK="template_example/electrochemicalmeasurementanalysis.xlsx" HGAP_QUANTITY="162.0 px" VSHIFT_QUANTITY="41.0 px"/>
 </node>
 </node>
 <node TEXT="Electrophoresis" STYLE_REF="Tech_Typ_Level1" POSITION="right" ID="ID_1218428522" CREATED="1549029085292" MODIFIED="1549552158256" HGAP_QUANTITY="230.0 px" VSHIFT_QUANTITY="10.0 px">
 <edge COLOR="#ff0000"/>
-<node TEXT="Capillary_electrophoresis" STYLE_REF="Tech_Typ_Level2" ID="ID_421294658" CREATED="1549029085293" MODIFIED="1552568393879" HGAP_QUANTITY="70.0 px" VSHIFT_QUANTITY="-10.0 px">
-<node TEXT="Type de support (ADN/ARN)&#xa;DO 260, 280,230= data" STYLE_REF="Tech_Typ_Metadata" ID="ID_926855450" CREATED="1549454658998" MODIFIED="1552568398789" LINK="template_example/capillaryelectrophoresisanalysis.xlsx" HGAP_QUANTITY="93.0 px" VSHIFT_QUANTITY="-5.0 px">
-<node TEXT="Dessauge &amp; Vincent" STYLE_REF="Tech_Typ_R&#xe9;f&#xe9;rent" ID="ID_1666887255" CREATED="1549277418738" MODIFIED="1552568398788" HGAP_QUANTITY="88.0 px" VSHIFT_QUANTITY="0.0 px"/>
-<node TEXT="Contr&#xf4;le qualit&#xe9; des ARN (Bioanalyzer)" STYLE_REF="Tech_Type_Analyses" ID="ID_1841413190" CREATED="1549029085295" MODIFIED="1552560233200" HGAP_QUANTITY="88.0 px" VSHIFT_QUANTITY="-1.4999999552965178 pt"/>
-<node TEXT="Dosage des ARN (Bioanalyzer)" STYLE_REF="Tech_Type_Analyses" ID="ID_962675708" CREATED="1549029085297" MODIFIED="1552560251759" HGAP_QUANTITY="87.0 px" VSHIFT_QUANTITY="2.249999932944778 pt"/>
-<node TEXT="Dosage et contr&#xf4;le qualit&#xe9; de l&apos;ADN (Bioanalyzer)" STYLE_REF="Tech_Type_Analyses" ID="ID_1087507271" CREATED="1549029085298" MODIFIED="1552560246792" HGAP_QUANTITY="90.0 px" VSHIFT_QUANTITY="-21.749999351799506 pt"/>
+<node TEXT="Capillary_electrophoresis" STYLE_REF="Tech_Typ_Level2" ID="ID_421294658" CREATED="1549029085293" MODIFIED="1549454673827" HGAP_QUANTITY="70.0 px" VSHIFT_QUANTITY="-10.0 px">
+<node TEXT="Dessauge &amp; Vincent" STYLE_REF="Tech_Typ_R&#xe9;f&#xe9;rent" ID="ID_1666887255" CREATED="1549277418738" MODIFIED="1549361664276" HGAP_QUANTITY="420.0 px" VSHIFT_QUANTITY="30.0 px"/>
+<node TEXT="Contr&#xf4;le qualit&#xe9; des ARN (Bioanalyzer)" STYLE_REF="Tech_Type_Analyses" ID="ID_1841413190" CREATED="1549029085295" MODIFIED="1549361666791" HGAP_QUANTITY="420.0 px"/>
+<node TEXT="Dosage des ARN (Bioanalyzer)" STYLE_REF="Tech_Type_Analyses" ID="ID_962675708" CREATED="1549029085297" MODIFIED="1549361659903" HGAP_QUANTITY="420.0 px"/>
+<node TEXT="Dosage et contr&#xf4;le qualit&#xe9; de l&apos;ADN (Bioanalyzer)" STYLE_REF="Tech_Type_Analyses" ID="ID_1087507271" CREATED="1549029085298" MODIFIED="1549454673826" HGAP_QUANTITY="420.0 px"/>
+<node TEXT="Type de support (ADN/ARN)&#xa;DO 260, 280,230" STYLE_REF="Tech_Typ_Metadata" ID="ID_926855450" CREATED="1549454658998" MODIFIED="1551943289597" LINK="template_example/capillaryelectrophoresisanalysis.xlsx" HGAP_QUANTITY="420.0 px" VSHIFT_QUANTITY="-20.0 px"/>
 </node>
+<node TEXT="Gel_Electrophoresis" STYLE_REF="Tech_Typ_Level2" ID="ID_1883962256" CREATED="1549029085300" MODIFIED="1549454841181" HGAP_QUANTITY="70.0 px">
+<node TEXT="Dessauge &amp; Vincent" STYLE_REF="Tech_Typ_R&#xe9;f&#xe9;rent" ID="ID_1356569164" CREATED="1549277372147" MODIFIED="1549361562383" HGAP_QUANTITY="70.0 px" VSHIFT_QUANTITY="-10.0 px"/>
+<node TEXT="2D_gel_electrophoresis" STYLE_REF="Tech_Type_Level3" ID="ID_1094582025" CREATED="1549029085302" MODIFIED="1549455582697" HGAP_QUANTITY="70.0 px" VSHIFT_QUANTITY="-10.0 px">
+<node TEXT="Electrophor&#xe8;se 2D" STYLE_REF="Tech_Type_Analyses" ID="ID_154822551" CREATED="1549029085303" MODIFIED="1549455582696" HGAP_QUANTITY="100.0 px" VSHIFT_QUANTITY="50.0 px"/>
+<node TEXT="N&#xb0;strip&#xa;Identification gel&#xa;Identification du scan&#xa;Type extraction Prot&#xe9;ines&#xa;Coloration&#xa;Niveau r&#xe9;solution image&#xa;Logiciel d&apos;analyse image" STYLE_REF="Tech_Typ_Metadata" ID="ID_175007884" CREATED="1549454732277" MODIFIED="1549461743361" LINK="template_example/ddgelelectrophoresisanalysis.xlsx" HGAP_QUANTITY="100.0 px" VSHIFT_QUANTITY="-10.0 px"/>
+<node TEXT="Sandrine" STYLE_REF="Tech_Typ_R&#xe9;f&#xe9;rent" ID="ID_1424188658" CREATED="1549980680214" MODIFIED="1549980698340"/>
 </node>
-<node TEXT="Gel_Electrophoresis" STYLE_REF="Tech_Typ_Level2" ID="ID_1883962256" CREATED="1549029085300" MODIFIED="1552568548328" HGAP_QUANTITY="70.0 px">
-<node TEXT="Dessauge &amp; Vincent" STYLE_REF="Tech_Typ_R&#xe9;f&#xe9;rent" ID="ID_1356569164" CREATED="1549277372147" MODIFIED="1552568548323" HGAP_QUANTITY="134.0 px" VSHIFT_QUANTITY="182.0 px"/>
-<node TEXT="Type de gel ( % acryl/ bis-acryl)&#xa;Type echantillon (prot/ ac.nucleic)&#xa;Tampon&#xa;Programme (Voltage , dur&#xe9;e)&#xa;Plan (N&#xb0; puits/sampleID)&#xa;Quantit&#xe9; d&#xe9;pos&#xe9;e&#xa;Marqueur (type/ quantit&#xe9;?)&#xa;R&#xe9;v&#xe9;lation" STYLE_REF="Tech_Typ_Metadata" ID="ID_288377847" CREATED="1549454821605" MODIFIED="1552568520685" LINK="template_example/gelelectrophoresisanalysis.xlsx" HGAP_QUANTITY="70.0 px" VSHIFT_QUANTITY="10.0 px">
-<node TEXT="2D_gel_electrophoresis" STYLE_REF="Tech_Type_Level3" ID="ID_1094582025" CREATED="1549029085302" MODIFIED="1552560283977" HGAP_QUANTITY="70.0 px" VSHIFT_QUANTITY="-10.0 px">
-<node TEXT="N&#xb0;strip&#xa;Identification gel&#xa;Identification du scan&#xa;Type extraction Prot&#xe9;ines&#xa;Coloration&#xa;Niveau r&#xe9;solution image&#xa;Logiciel d&apos;analyse image" STYLE_REF="Tech_Typ_Metadata" ID="ID_175007884" CREATED="1549454732277" MODIFIED="1552560276663" LINK="template_example/ddgelelectrophoresisanalysis.xlsx" HGAP_QUANTITY="100.0 px" VSHIFT_QUANTITY="-10.0 px">
-<node TEXT="Electrophor&#xe8;se 2D" STYLE_REF="Tech_Type_Analyses" ID="ID_154822551" CREATED="1549029085303" MODIFIED="1552560276662" HGAP_QUANTITY="98.0 px" VSHIFT_QUANTITY="-11.0 px"/>
-<node TEXT="Sandrine" STYLE_REF="Tech_Typ_R&#xe9;f&#xe9;rent" ID="ID_1424188658" CREATED="1549980680214" MODIFIED="1552560283976" HGAP_QUANTITY="77.749998100102 pt" VSHIFT_QUANTITY="0.7499999776482589 pt"/>
-</node>
-</node>
-<node TEXT="Staining" STYLE_REF="Tech_Type_Level3" ID="ID_1767574824" CREATED="1549029085314" MODIFIED="1552568532823" HGAP_QUANTITY="70.0 px" VSHIFT_QUANTITY="10.0 px">
-<node TEXT="Coloration des gels 2D Nitrate Argent" STYLE_REF="Tech_Type_Analyses" ID="ID_362024889" CREATED="1549029085315" MODIFIED="1552568527834" HGAP_QUANTITY="432.0 px" VSHIFT_QUANTITY="44.0 px"/>
-<node TEXT="Coloration des gels 2D Silver Blue" STYLE_REF="Tech_Type_Analyses" ID="ID_333018320" CREATED="1549029085317" MODIFIED="1552568532821" HGAP_QUANTITY="440.0 px" VSHIFT_QUANTITY="-58.0 px"/>
+<node TEXT="Staining" STYLE_REF="Tech_Type_Level3" ID="ID_1767574824" CREATED="1549029085314" MODIFIED="1549455589203" HGAP_QUANTITY="70.0 px" VSHIFT_QUANTITY="10.0 px">
+<node TEXT="Coloration des gels 2D Nitrate Argent" STYLE_REF="Tech_Type_Analyses" ID="ID_362024889" CREATED="1549029085315" MODIFIED="1549361597545" HGAP_QUANTITY="100.0 px" VSHIFT_QUANTITY="10.0 px"/>
+<node TEXT="Coloration des gels 2D Silver Blue" STYLE_REF="Tech_Type_Analyses" ID="ID_333018320" CREATED="1549029085317" MODIFIED="1549455589203" HGAP_QUANTITY="100.0 px" VSHIFT_QUANTITY="-40.0 px"/>
 </node>
 <node TEXT="Northern blot" STYLE_REF="Tech_Type_Level3" ID="ID_112295894" CREATED="1549029085305" MODIFIED="1549455365504" HGAP_QUANTITY="70.0 px" VSHIFT_QUANTITY="-10.0 px">
-<node TEXT="Type et condition de transfert&#xa;Tampon transfert&#xa;Type de membrane&#xa;Sonde (g&#xe8;nes?)&#xa;Technique de marquage / r&#xe9;v&#xe9;lation&#xa;Parametres d&apos;acquisition d&apos;image (&#xe0; preciser) + logiciel" STYLE_REF="Tech_Typ_Metadata" ID="ID_1956431260" CREATED="1549455349978" MODIFIED="1549980798089" HGAP_QUANTITY="100.0 px" VSHIFT_QUANTITY="-10.0 px">
 <node TEXT="S&#xe9;paration des ARN et transfert sur membrane" STYLE_REF="Tech_Type_Analyses" ID="ID_1930886808" CREATED="1549029085306" MODIFIED="1549455365502" HGAP_QUANTITY="100.0 px" VSHIFT_QUANTITY="10.0 px"/>
+<node TEXT="Type et condition de transfert&#xa;Tampon transfert&#xa;Type de membrane&#xa;Sonde (g&#xe8;nes?)&#xa;Technique de marquage / r&#xe9;v&#xe9;lation&#xa;Parametres d&apos;acquisition d&apos;image (&#xe0; preciser) + logiciel" STYLE_REF="Tech_Typ_Metadata" ID="ID_1956431260" CREATED="1549455349978" MODIFIED="1549980798089" HGAP_QUANTITY="100.0 px" VSHIFT_QUANTITY="-10.0 px"/>
 </node>
-</node>
-<node TEXT="Electrophor&#xe8;se d&apos;ADN avec marqueur de taille" STYLE_REF="Tech_Type_Analyses" ID="ID_638395843" CREATED="1549029085308" MODIFIED="1552568510667" HGAP_QUANTITY="769.0 px" VSHIFT_QUANTITY="11.999999642372144 pt"/>
-<node TEXT="SDS-PAGE" STYLE_REF="Tech_Type_Analyses" ID="ID_1627143363" CREATED="1549029085309" MODIFIED="1552568516348" HGAP_QUANTITY="772.0 px" VSHIFT_QUANTITY="-3.749999888241298 pt"/>
-<node TEXT="SDS-PAGE (sp&#xe9;cifique myosine)" STYLE_REF="Tech_Type_Analyses" ID="ID_1790600613" CREATED="1549029085311" MODIFIED="1552568520682" HGAP_QUANTITY="774.0 px" VSHIFT_QUANTITY="-64.49999807775026 pt"/>
-<node TEXT="Zymographie:&#xa;Substrat &amp; substrat&#xa;Matrice" STYLE_REF="Tech_Typ_Metadata" ID="ID_848752470" CREATED="1551943314460" MODIFIED="1552568506579" HGAP_QUANTITY="336.4999903887513 pt" VSHIFT_QUANTITY="-14.999999552965177 pt">
+<node TEXT="SDS Page" STYLE_REF="Tech_Type_Level3" ID="ID_486543181" CREATED="1549029085307" MODIFIED="1549981184035" HGAP_QUANTITY="70.0 px">
+<node TEXT="Electrophor&#xe8;se d&apos;ADN avec marqueur de taille" STYLE_REF="Tech_Type_Analyses" ID="ID_638395843" CREATED="1549029085308" MODIFIED="1549361623818" HGAP_QUANTITY="100.0 px"/>
+<node TEXT="SDS-PAGE" STYLE_REF="Tech_Type_Analyses" ID="ID_1627143363" CREATED="1549029085309" MODIFIED="1549361620979" HGAP_QUANTITY="100.0 px"/>
+<node TEXT="SDS-PAGE (sp&#xe9;cifique myosine)" STYLE_REF="Tech_Type_Analyses" ID="ID_1790600613" CREATED="1549029085311" MODIFIED="1549361615676" HGAP_QUANTITY="100.0 px"/>
 <node TEXT="Zymographie" STYLE_REF="Tech_Type_Analyses" ID="ID_1952965324" CREATED="1549029085312" MODIFIED="1549361611262" HGAP_QUANTITY="100.0 px"/>
 <node TEXT="dessauge: zymographie" STYLE_REF="Tech_Typ_R&#xe9;f&#xe9;rent" ID="ID_1825121016" CREATED="1549981164709" MODIFIED="1549981209058" HGAP_QUANTITY="100.0 px" VSHIFT_QUANTITY="-10.0 px"/>
+<node TEXT="Zymographie:&#xa;Substrat &amp; substrat&#xa;Matrice" STYLE_REF="Tech_Typ_Metadata" ID="ID_848752470" CREATED="1551943314460" MODIFIED="1551943543055"/>
 </node>
 <node TEXT="western_blot" STYLE_REF="Tech_Type_Level3" ID="ID_1754143579" CREATED="1549029085318" MODIFIED="1549454781405" HGAP_QUANTITY="70.0 px" VSHIFT_QUANTITY="10.0 px">
-<node TEXT="Type et condition de transfert (tampon temperature temps)&#xa;Type de membrane&#xa;Ref et dilution anticoprs 1&#xa;Ref  et dilution anticorps 2&#xa;Technique r&#xe9;v&#xe9;lation (chemiluminescence, fluo&#x2026;)&#xa;Parametres d&apos;acquisition d&apos;image (&#xe0; preciser) + logiciel&#xa;&#xa;&#xa;quantification:&#xa;logiciel las4000&#xa;reference / &#xe9;talon&#xa;niveau du bruit de fond" STYLE_REF="Tech_Typ_Metadata" ID="ID_411642075" CREATED="1549454770760" MODIFIED="1549982574576" LINK="template_example/westernblotanalysis.xlsx" HGAP_QUANTITY="100.0 px">
 <node TEXT="Western blot" STYLE_REF="Tech_Type_Analyses" ID="ID_332447615" CREATED="1549029085319" MODIFIED="1549361582732" HGAP_QUANTITY="100.0 px" VSHIFT_QUANTITY="10.0 px"/>
 <node TEXT="Western blot (sp&#xe9;cifique IGFBP)" STYLE_REF="Tech_Type_Analyses" ID="ID_771313413" CREATED="1549029085320" MODIFIED="1549454781404" HGAP_QUANTITY="100.0 px"/>
+<node TEXT="Type et condition de transfert (tampon temperature temps)&#xa;Type de membrane&#xa;Ref et dilution anticoprs 1&#xa;Ref  et dilution anticorps 2&#xa;Technique r&#xe9;v&#xe9;lation (chemiluminescence, fluo&#x2026;)&#xa;Parametres d&apos;acquisition d&apos;image (&#xe0; preciser) + logiciel&#xa;&#xa;&#xa;quantification:&#xa;logiciel las4000&#xa;reference / &#xe9;talon&#xa;niveau du bruit de fond" STYLE_REF="Tech_Typ_Metadata" ID="ID_411642075" CREATED="1549454770760" MODIFIED="1549982574576" LINK="template_example/westernblotanalysis.xlsx" HGAP_QUANTITY="100.0 px"/>
 </node>
-</node>
-</node>
+<node TEXT="Type de gel ( % acryl/ bis-acryl)&#xa;Type echantillon (prot/ ac.nucleic)&#xa;Tampon&#xa;Programme (Voltage , dur&#xe9;e)&#xa;Plan (N&#xb0; puits/sampleID)&#xa;Quantit&#xe9; d&#xe9;pos&#xe9;e&#xa;Marqueur (type/ quantit&#xe9;?)&#xa;R&#xe9;v&#xe9;lation" STYLE_REF="Tech_Typ_Metadata" ID="ID_288377847" CREATED="1549454821605" MODIFIED="1549981039117" LINK="template_example/gelelectrophoresisanalysis.xlsx" HGAP_QUANTITY="70.0 px" VSHIFT_QUANTITY="10.0 px"/>
 </node>
 </node>
 <node TEXT="Experience of zootechnical performance" STYLE_REF="Tech_Typ_Level1" POSITION="right" ID="ID_748816581" CREATED="1549029085321" MODIFIED="1549552161883" HGAP_QUANTITY="230.0 px" VSHIFT_QUANTITY="10.0 px">
@@ -623,79 +617,63 @@
 </node>
 <node TEXT="Flow_cytometry" STYLE_REF="Tech_Typ_Level1" POSITION="right" ID="ID_1993233812" CREATED="1549029085361" MODIFIED="1549552165524" HGAP_QUANTITY="230.0 px" VSHIFT_QUANTITY="10.0 px">
 <edge COLOR="#7c007c"/>
-<node TEXT="FACS" STYLE_REF="Tech_Typ_Level2" ID="ID_141742280" CREATED="1549029085362" MODIFIED="1552568624663" HGAP_QUANTITY="70.0 px">
-<node TEXT="Cell count&#xa;SSC&#xa;FSC&#xa;Filtre Petites particules&#xa;Marqueurs utilis&#xe9;s&#xa;fluorochrome" STYLE_REF="Tech_Typ_Metadata" ID="ID_1303218143" CREATED="1549354785995" MODIFIED="1552568637992" LINK="template_example/facsanalysis.xlsx" HGAP_QUANTITY="430.0 px" VSHIFT_QUANTITY="0.0 px">
-<node TEXT="Marion Boutinaud" STYLE_REF="Tech_Typ_R&#xe9;f&#xe9;rent" ID="ID_1197192853" CREATED="1550235170896" MODIFIED="1552568637990" HGAP_QUANTITY="319.99999088048963 pt" VSHIFT_QUANTITY="7.499999776482589 pt"/>
-<node TEXT="Analyse de la mort cellulaire par cytom&#xe9;trie de flux" STYLE_REF="Tech_Type_Analyses" ID="ID_61073487" CREATED="1549029085364" MODIFIED="1552568611230" HGAP_QUANTITY="424.0 px" VSHIFT_QUANTITY="-47.99999856948857 pt"/>
+<node TEXT="FACS" STYLE_REF="Tech_Typ_Level2" ID="ID_141742280" CREATED="1549029085362" MODIFIED="1549361096166" HGAP_QUANTITY="70.0 px">
+<node TEXT="Dessauge &amp; Perruchot" STYLE_REF="Tech_Typ_R&#xe9;f&#xe9;rent" ID="ID_315921614" CREATED="1549277100595" MODIFIED="1549361086508" HGAP_QUANTITY="420.0 px" VSHIFT_QUANTITY="50.0 px"/>
+<node TEXT="Analyse de la mort cellulaire par cytom&#xe9;trie de flux" STYLE_REF="Tech_Type_Analyses" ID="ID_61073487" CREATED="1549029085364" MODIFIED="1549361081400" HGAP_QUANTITY="420.0 px">
+<node TEXT="Marion Boutinaud" STYLE_REF="Tech_Typ_R&#xe9;f&#xe9;rent" ID="ID_1197192853" CREATED="1550235170896" MODIFIED="1550235707083"/>
+</node>
 <node TEXT="Ph&#xe9;notypage par cytom&#xe9;trie de flux de cellules" STYLE_REF="Tech_Type_Analyses" ID="ID_138558338" CREATED="1549029085365" MODIFIED="1549361079504" HGAP_QUANTITY="420.0 px"/>
+<node TEXT="Cell count&#xa;SSC&#xa;FSC&#xa;Filtre Petites particules&#xa;Marqueurs utilis&#xe9;s&#xa;fluorochrome" STYLE_REF="Tech_Typ_Metadata" ID="ID_1303218143" CREATED="1549354785995" MODIFIED="1551943704274" LINK="template_example/facsanalysis.xlsx" HGAP_QUANTITY="420.0 px" VSHIFT_QUANTITY="-60.0 px"/>
 </node>
-<node TEXT="Dessauge &amp; Perruchot" STYLE_REF="Tech_Typ_R&#xe9;f&#xe9;rent" ID="ID_315921614" CREATED="1549277100595" MODIFIED="1552568621639" HGAP_QUANTITY="424.0 px" VSHIFT_QUANTITY="-36.0 px"/>
 </node>
-</node>
-<node TEXT="Gravimetry" STYLE_REF="Tech_Typ_Level1" POSITION="right" ID="ID_380135908" CREATED="1549029085366" MODIFIED="1556285554456" HGAP_QUANTITY="230.0 px" VSHIFT_QUANTITY="10.0 px">
+<node TEXT="Gravimetry" STYLE_REF="Tech_Typ_Level1" POSITION="right" ID="ID_380135908" CREATED="1549029085366" MODIFIED="1551169399112" HGAP_QUANTITY="230.0 px" VSHIFT_QUANTITY="10.0 px">
 <edge COLOR="#0000ff"/>
 <node TEXT="Huchet &amp; Labussi&#xe8;re" STYLE_REF="Tech_Typ_R&#xe9;f&#xe9;rent" ID="ID_1013678225" CREATED="1549276724477" MODIFIED="1549360818805" HGAP_QUANTITY="740.0 px"/>
-<node TEXT="Contr&#xf4;le interne&#xa;Voir C&#xe9;cile" STYLE_REF="Tech_Typ_Metadata" ID="ID_439918939" CREATED="1552395915044" MODIFIED="1552568676772" HGAP_QUANTITY="558.4999837726359 pt" VSHIFT_QUANTITY="-5.999999821186071 pt">
-<node TEXT="Amidon polarim&#xe9;trique" STYLE_REF="Tech_Type_Analyses" ID="ID_1573312477" CREATED="1549029085368" MODIFIED="1552568676770" HGAP_QUANTITY="64.0 px" VSHIFT_QUANTITY="-3.7499998882412946 pt"/>
-</node>
-<node TEXT="Contr&#xf4;le interne" STYLE_REF="Tech_Typ_Metadata" ID="ID_911137154" CREATED="1552395948099" MODIFIED="1552568692641" HGAP_QUANTITY="561.499983683229 pt" VSHIFT_QUANTITY="1.4999999552965178 pt">
+<node TEXT="Amidon polarim&#xe9;trique" STYLE_REF="Tech_Type_Analyses" ID="ID_1573312477" CREATED="1549029085368" MODIFIED="1551169312076" HGAP_QUANTITY="742.0 px" VSHIFT_QUANTITY="-23.249999307096026 pt"/>
 <node TEXT="Azote total Dumas dans les aliments, les f&#xe8;ces, les contenus digestifs" STYLE_REF="Tech_Type_Analyses" ID="ID_412602205" CREATED="1549029085370" MODIFIED="1549360948720" HGAP_QUANTITY="740.0 px"/>
 <node TEXT="Azote total Dumas dans le lait" STYLE_REF="Tech_Type_Analyses" ID="ID_610215394" CREATED="1549029085371" MODIFIED="1549360942203" HGAP_QUANTITY="740.0 px"/>
 <node TEXT="Azote total Dumas (Leco) Aliments, f&#xe8;ces, r&#xe9;sidus NDF" STYLE_REF="Tech_Type_Analyses" ID="ID_626104633" CREATED="1549029085372" MODIFIED="1549360932146" HGAP_QUANTITY="740.0 px"/>
 <node TEXT="Azote total Dumas (Leco)" STYLE_REF="Tech_Type_Analyses" ID="ID_109720269" CREATED="1549029085372" MODIFIED="1551169218525" HGAP_QUANTITY="739.0 px" VSHIFT_QUANTITY="-20.999999374151248 pt"/>
-</node>
-<node TEXT="catalyseur" STYLE_REF="Tech_Typ_Metadata" ID="ID_57815623" CREATED="1551165868728" MODIFIED="1552568728221" HGAP_QUANTITY="559.9999837279324 pt" VSHIFT_QUANTITY="-16.499999508261695 pt">
-<node TEXT="Azote total fraction NCN (Kjeldahl)" STYLE_REF="Tech_Type_Analyses" ID="ID_802501883" CREATED="1549029085373" MODIFIED="1549360919509" HGAP_QUANTITY="740.0 px"/>
 <node TEXT="Azote total (Kjeldahl)" STYLE_REF="Tech_Type_Analyses" ID="ID_200888600" CREATED="1549029085369" MODIFIED="1549360955420" HGAP_QUANTITY="740.0 px"/>
-<node TEXT="Azote total fraction NPN (Kjeldahl)" STYLE_REF="Tech_Type_Analyses" ID="ID_547026520" CREATED="1549029085374" MODIFIED="1549360914322" HGAP_QUANTITY="740.0 px"/>
+<node TEXT="Azote total fraction NCN (Kjeldahl)" STYLE_REF="Tech_Type_Analyses" ID="ID_802501883" CREATED="1549029085373" MODIFIED="1549360919509" HGAP_QUANTITY="740.0 px">
+<node TEXT="catalyseur" STYLE_REF="Tech_Typ_Metadata" ID="ID_57815623" CREATED="1551165868728" MODIFIED="1551168462731"/>
 </node>
-<node TEXT="R&#xe9;actif&#xa;N&#xb0; lot" STYLE_REF="Tech_Typ_Metadata" ID="ID_1624328106" CREATED="1552395841776" MODIFIED="1552568746258" HGAP_QUANTITY="564.499983593822 pt" VSHIFT_QUANTITY="1.4999999552965178 pt">
+<node TEXT="Azote total fraction NPN (Kjeldahl)" STYLE_REF="Tech_Type_Analyses" ID="ID_547026520" CREATED="1549029085374" MODIFIED="1549360914322" HGAP_QUANTITY="740.0 px"/>
 <node TEXT="Cellulose brute (Weende) aliment" STYLE_REF="Tech_Type_Analyses" ID="ID_956274848" CREATED="1549029085374" MODIFIED="1551169221697" HGAP_QUANTITY="737.0 px" VSHIFT_QUANTITY="19.49999941885473 pt"/>
 <node TEXT="Cellulose brute (Weende) f&#xe8;ces" STYLE_REF="Tech_Type_Analyses" ID="ID_1680654777" CREATED="1549029085375" MODIFIED="1549360894566" HGAP_QUANTITY="740.0 px"/>
-<node TEXT="Fibres solubles et insolubles (Prosky)" STYLE_REF="Tech_Type_Analyses" ID="ID_1936830500" CREATED="1549029085378" MODIFIED="1549360852092" HGAP_QUANTITY="740.0 px"/>
-</node>
 <node TEXT="Constituants pari&#xe9;taux (Van Soest) aliment" STYLE_REF="Tech_Type_Analyses" ID="ID_31518747" CREATED="1549029085375" MODIFIED="1551169224959" HGAP_QUANTITY="743.0 px" VSHIFT_QUANTITY="32.24999903887513 pt"/>
 <node TEXT="Constituants pari&#xe9;taux (Van Soest) feces" STYLE_REF="Tech_Type_Analyses" ID="ID_1727659454" CREATED="1549029085376" MODIFIED="1551169303481" HGAP_QUANTITY="743.0 px" VSHIFT_QUANTITY="-12.7499996200204 pt"/>
-<node TEXT="dMO in vitro" STYLE_REF="Tech_Type_Analyses" ID="ID_1497300832" CREATED="1549029085377" MODIFIED="1549360859068" HGAP_QUANTITY="740.0 px">
-<node TEXT="Mol" STYLE_REF="Tech_Typ_Metadata" ID="ID_1958971255" CREATED="1552395879747" MODIFIED="1552395997729"/>
+<node TEXT="dMO in vitro" STYLE_REF="Tech_Type_Analyses" ID="ID_1497300832" CREATED="1549029085377" MODIFIED="1549360859068" HGAP_QUANTITY="740.0 px"/>
+<node TEXT="dN in vitro" STYLE_REF="Tech_Type_Analyses" ID="ID_468947826" CREATED="1549029085378" MODIFIED="1549360863080" HGAP_QUANTITY="740.0 px"/>
+<node TEXT="Fibres solubles et insolubles (Prosky)" STYLE_REF="Tech_Type_Analyses" ID="ID_1936830500" CREATED="1549029085378" MODIFIED="1549360852092" HGAP_QUANTITY="740.0 px"/>
+<node TEXT="Lipides (FOLCH)" STYLE_REF="Tech_Type_Analyses" ID="ID_1231494038" CREATED="1549029085379" MODIFIED="1551169389784" HGAP_QUANTITY="741.0 px" VSHIFT_QUANTITY="14.249999575316918 pt">
+<node TEXT="prise d&apos;essais&#xa;matrice (echantillon)" STYLE_REF="Tech_Typ_Metadata" ID="ID_445022287" CREATED="1550044893721" MODIFIED="1551169389782" HGAP_QUANTITY="27.499999597668662 pt" VSHIFT_QUANTITY="-23.999999284744284 pt"/>
 </node>
-<node TEXT="dN in vitro" STYLE_REF="Tech_Type_Analyses" ID="ID_468947826" CREATED="1549029085378" MODIFIED="1549360863080" HGAP_QUANTITY="740.0 px">
-<node TEXT="mol" STYLE_REF="Tech_Typ_Metadata" ID="ID_1092191208" CREATED="1552395888075" MODIFIED="1552396004240"/>
-</node>
-<node TEXT="prise d&apos;essais&#xa;matrice (echantillon)" STYLE_REF="Tech_Typ_Metadata" ID="ID_445022287" CREATED="1550044893721" MODIFIED="1552568764334" HGAP_QUANTITY="555.4999838620429 pt" VSHIFT_QUANTITY="20.99999937415125 pt">
-<node TEXT="Lipides (FOLCH)" STYLE_REF="Tech_Type_Analyses" ID="ID_1231494038" CREATED="1549029085379" MODIFIED="1551169389784" HGAP_QUANTITY="741.0 px" VSHIFT_QUANTITY="14.249999575316918 pt"/>
 <node TEXT="Lipides (LECO) Isopropanol" STYLE_REF="Tech_Type_Analyses" ID="ID_1419811231" CREATED="1549029085380" MODIFIED="1549360827084" HGAP_QUANTITY="740.0 px"/>
-</node>
-<node TEXT="type de solvant&#xa;t&#xb0; cycle&#xa;nature des godets&#xa;t&#xb0;sechage" STYLE_REF="Tech_Typ_Metadata" ID="ID_830017246" CREATED="1551430239802" MODIFIED="1552568778089" HGAP_QUANTITY="553.9999839067464 pt" VSHIFT_QUANTITY="4.499999865889553 pt">
-<node TEXT="Lipides et Mati&#xe8;res grasses avec hydrolyse (Soxtec)" STYLE_REF="Tech_Type_Analyses" ID="ID_1374234301" CREATED="1549029085382" MODIFIED="1549360821903" HGAP_QUANTITY="740.0 px"/>
+<node TEXT="Lipides et Mati&#xe8;res grasses avec hydrolyse (Soxtec)" STYLE_REF="Tech_Type_Analyses" ID="ID_1374234301" CREATED="1549029085382" MODIFIED="1549360821903" HGAP_QUANTITY="740.0 px">
+<node TEXT="type de solvant" STYLE_REF="Tech_Typ_Metadata" ID="ID_830017246" CREATED="1551430239802" MODIFIED="1551430397237"/>
 </node>
 <node TEXT="Lipides et Mati&#xe8;res grasses sans hydrolyse" STYLE_REF="Tech_Type_Analyses" ID="ID_1270573775" CREATED="1549029085382" MODIFIED="1549360811434" HGAP_QUANTITY="740.0 px"/>
 <node TEXT="Lipides lait (Rose Gotlieb)" STYLE_REF="Tech_Type_Analyses" ID="ID_1175703397" CREATED="1549029085383" MODIFIED="1549360789245" HGAP_QUANTITY="740.0 px"/>
-<node TEXT="Etuve balance&#xa;Temp&#xe9;rature&#xa;temps&#xa;Granulometrie&#xa;Profil" STYLE_REF="Tech_Typ_Metadata" ID="ID_1199140233" CREATED="1551165897640" MODIFIED="1556285389790" HGAP_QUANTITY="554.7499838843946 pt" VSHIFT_QUANTITY="11.249999664723887 pt">
-<node TEXT="Mati&#xe8;re s&#xe8;che" STYLE_REF="Tech_Type_Analyses" ID="ID_262280908" CREATED="1549029085384" MODIFIED="1551169399109" HGAP_QUANTITY="741.0 px" VSHIFT_QUANTITY="32.24999903887513 pt"/>
+<node TEXT="Mati&#xe8;re s&#xe8;che" STYLE_REF="Tech_Type_Analyses" ID="ID_262280908" CREATED="1549029085384" MODIFIED="1551169399109" HGAP_QUANTITY="741.0 px" VSHIFT_QUANTITY="32.24999903887513 pt">
+<node TEXT="Etuve balance&#xa;Temp&#xe9;rature&#xa;temps&#xa;Granulometrie" STYLE_REF="Tech_Typ_Metadata" ID="ID_1199140233" CREATED="1551165897640" MODIFIED="1551169392996" HGAP_QUANTITY="15.499999955296518 pt" VSHIFT_QUANTITY="-42.74999872595075 pt"/>
+</node>
 <node TEXT="Mati&#xe8;re s&#xe8;che (lait)" STYLE_REF="Tech_Type_Analyses" ID="ID_590069788" CREATED="1549029085385" MODIFIED="1549360775447" HGAP_QUANTITY="740.0 px"/>
 <node TEXT="Mati&#xe8;re s&#xe8;che/cendres brutes" STYLE_REF="Tech_Type_Analyses" ID="ID_531119841" CREATED="1549029085385" MODIFIED="1551169295115" HGAP_QUANTITY="742.0 px" VSHIFT_QUANTITY="-44.24999868124728 pt"/>
+<node TEXT="NDF (Van Soest)" STYLE_REF="Tech_Type_Analyses" ID="ID_289608014" CREATED="1549029085386" MODIFIED="1549360761192" HGAP_QUANTITY="740.0 px">
+<node TEXT="temperature ???" STYLE_REF="Tech_Typ_Metadata" ID="ID_193601755" CREATED="1550045128890" MODIFIED="1551165854808"/>
 </node>
-<node TEXT="temperature ???" STYLE_REF="Tech_Typ_Metadata" ID="ID_193601755" CREATED="1550045128890" MODIFIED="1556285447839" HGAP_QUANTITY="558.4999837726359 pt" VSHIFT_QUANTITY="-2.2499999329447764 pt">
-<node TEXT="NDF (Van Soest)" STYLE_REF="Tech_Type_Analyses" ID="ID_289608014" CREATED="1549029085386" MODIFIED="1549360761192" HGAP_QUANTITY="740.0 px"/>
 <node TEXT="NDF_ADF (Van Soest)" STYLE_REF="Tech_Type_Analyses" ID="ID_681484087" CREATED="1549029085386" MODIFIED="1549360755001" HGAP_QUANTITY="740.0 px"/>
-</node>
-<node TEXT="Voir C&#xe9;cile" STYLE_REF="Tech_Typ_Metadata" ID="ID_1253263847" CREATED="1552396044564" MODIFIED="1556285425064" HGAP_QUANTITY="556.2499838396911 pt" VSHIFT_QUANTITY="6.74999979883433 pt">
 <node TEXT="Parois v&#xe9;g&#xe9;tales" STYLE_REF="Tech_Type_Analyses" ID="ID_408306939" CREATED="1549029085387" MODIFIED="1549360747295" HGAP_QUANTITY="740.0 px"/>
-</node>
 <node TEXT="Parois v&#xe9;g&#xe9;tales insolubles dans l&apos;eau (WICW)" STYLE_REF="Tech_Type_Analyses" ID="ID_874348822" CREATED="1549029085388" MODIFIED="1549360731150" HGAP_QUANTITY="740.0 px"/>
-<node TEXT="temperature&#xa;prise d&apos;essais&#xa;temps" STYLE_REF="Tech_Typ_Metadata" ID="ID_1179242728" CREATED="1550044686335" MODIFIED="1556285554453" HGAP_QUANTITY="554.7499838843946 pt" VSHIFT_QUANTITY="-0.7499999776482582 pt">
-<node TEXT="Pertes en eau (abattoir)" STYLE_REF="Tech_Type_Analyses" ID="ID_1385880140" CREATED="1549029085389" MODIFIED="1549360723354" HGAP_QUANTITY="740.0 px"/>
+<node TEXT="Pertes en eau (abattoir)" STYLE_REF="Tech_Type_Analyses" ID="ID_1385880140" CREATED="1549029085389" MODIFIED="1549360723354" HGAP_QUANTITY="740.0 px">
+<node TEXT="temperature&#xa;prise d&apos;essais&#xa;temps" STYLE_REF="Tech_Typ_Metadata" ID="ID_1179242728" CREATED="1550044686335" MODIFIED="1550044806465"/>
 </node>
-<node TEXT="prise d&apos;essais&#xa;temperature&#xa;temps de cuisson" STYLE_REF="Tech_Typ_Metadata" ID="ID_1211071587" CREATED="1550044809342" MODIFIED="1556285549465" HGAP_QUANTITY="555.4999838620429 pt" VSHIFT_QUANTITY="-68.24999796599155 pt">
-<node TEXT="Pertes en eau (cuisson viande)" STYLE_REF="Tech_Type_Analyses" ID="ID_895611069" CREATED="1549029085390" MODIFIED="1556285531642" HGAP_QUANTITY="740.0 px"/>
+<node TEXT="Pertes en eau (cuisson viande)" STYLE_REF="Tech_Type_Analyses" ID="ID_895611069" CREATED="1549029085390" MODIFIED="1549360710660" HGAP_QUANTITY="740.0 px">
+<node TEXT="prise d&apos;essais&#xa;temperature&#xa;temps de cuisson" STYLE_REF="Tech_Typ_Metadata" ID="ID_1211071587" CREATED="1550044809342" MODIFIED="1551165844693"/>
 </node>
-<node TEXT="Sucres totaux" STYLE_REF="Tech_Type_Analyses" ID="ID_1493393267" CREATED="1549029085391" MODIFIED="1549360695910" HGAP_QUANTITY="740.0 px">
-<node TEXT="Voir C&#xe9;cile" STYLE_REF="Tech_Typ_Metadata" ID="ID_1521778049" CREATED="1552395806929" MODIFIED="1552396013905"/>
-</node>
-<node TEXT="TFD Fibres totales (Prosky)" STYLE_REF="Tech_Type_Analyses" ID="ID_1764848922" CREATED="1549029085392" MODIFIED="1549360687751" HGAP_QUANTITY="740.0 px">
-<node TEXT="voir C&#xe9;cile" STYLE_REF="Tech_Typ_Metadata" ID="ID_1026868638" CREATED="1552395788450" MODIFIED="1552396020034"/>
-</node>
+<node TEXT="Sucres totaux" STYLE_REF="Tech_Type_Analyses" ID="ID_1493393267" CREATED="1549029085391" MODIFIED="1549360695910" HGAP_QUANTITY="740.0 px"/>
+<node TEXT="TFD Fibres totales (Prosky)" STYLE_REF="Tech_Type_Analyses" ID="ID_1764848922" CREATED="1549029085392" MODIFIED="1549360687751" HGAP_QUANTITY="740.0 px"/>
 <node TEXT="Prise d&apos;essai (Vol. Masse)" STYLE_REF="Tech_Typ_Metadata" ID="ID_1676316532" CREATED="1549458375207" MODIFIED="1549461779259" LINK="template_example/gravimetry.xlsx" HGAP_QUANTITY="740.0 px" VSHIFT_QUANTITY="-10.0 px"/>
 </node>
 <node TEXT="Imaging" STYLE_REF="Tech_Typ_Level1" POSITION="right" ID="ID_1494464011" CREATED="1549029085393" MODIFIED="1549552242002" HGAP_QUANTITY="230.0 px" VSHIFT_QUANTITY="10.0 px">
@@ -715,7 +693,7 @@
 <node TEXT="Morphometrie des adipocytes intramusculaires" STYLE_REF="Tech_Type_Analyses" ID="ID_1426625551" CREATED="1549029085402" MODIFIED="1549359874056" HGAP_QUANTITY="100.0 px"/>
 <node TEXT="Morphom&#xe9;trie des fibres musculaires" STYLE_REF="Tech_Type_Analyses" ID="ID_1371784419" CREATED="1549029085403" MODIFIED="1549359871246" HGAP_QUANTITY="100.0 px"/>
 <node TEXT="Visualisation des fibres musculaires" STYLE_REF="Tech_Type_Analyses" ID="ID_1359415743" CREATED="1549029085405" MODIFIED="1549457907768" HGAP_QUANTITY="100.0 px"/>
-<node TEXT="R&#xe9;f&#xe9;rence coloration produit critique" STYLE_REF="Tech_Typ_Metadata" ID="ID_459097423" CREATED="1550237390840" MODIFIED="1556289962807"/>
+<node TEXT="" STYLE_REF="Tech_Typ_Metadata" ID="ID_459097423" CREATED="1550237390840" MODIFIED="1550237400530"/>
 </node>
 <node TEXT="Immunohistochemistry (IHC)" STYLE_REF="Tech_Type_Level3" ID="ID_1279824727" CREATED="1549029085406" MODIFIED="1549461199633" HGAP_QUANTITY="70.0 px" VSHIFT_QUANTITY="10.0 px">
 <node TEXT="Immunod&#xe9;tection - m&#xe9;thode streptavidine" STYLE_REF="Tech_Type_Analyses" ID="ID_1004799783" CREATED="1549029085407" MODIFIED="1549360594154" HGAP_QUANTITY="100.0 px" VSHIFT_QUANTITY="170.0 px"/>
@@ -729,7 +707,7 @@
 <node TEXT="Visualisation triglyc&#xe9;rides intramyocellulaires" STYLE_REF="Tech_Type_Analyses" ID="ID_644409564" CREATED="1549029085418" MODIFIED="1549461199628" HGAP_QUANTITY="100.0 px"/>
 <node TEXT="Ref et dilution anticorps (1 &#xe0; n)&#xa;temps exposition (pour la fluo)&#xa;gamme de diametre des particules" STYLE_REF="Tech_Typ_Metadata" ID="ID_1660140409" CREATED="1549457890910" MODIFIED="1550236881126" LINK="template_example/immunohistochemistryanalysis.xlsx" HGAP_QUANTITY="100.0 px" VSHIFT_QUANTITY="-140.0 px"/>
 </node>
-<node TEXT="Type inclusion&#xa;Type de fixation&#xa;Appareil de coupe et reference&#xa;Epaisseur de coupe&#xa;Type de microscope&#xa;Grossissement microscope&#xa;&#xa;&#xa;Echelle de l&apos;image (&#xb5;m /pixel)&#xa;Logiciel d&apos;analyse et version&#xa;&#xa;&#xa;Nbre Champ de mesure&#xa;N&#xb0; photo&#xa;N&#xb0;identifiant de l&apos;organite" STYLE_REF="Tech_Typ_Metadata" ID="ID_649706578" CREATED="1549457812300" MODIFIED="1556289959110" LINK="template_example/histochemistryanalysis.xlsx" HGAP_QUANTITY="70.0 px" VSHIFT_QUANTITY="10.0 px"/>
+<node TEXT="Type inclusion&#xa;Type de fixation&#xa;Appareil de coupe et reference&#xa;Epaisseur de coupe&#xa;Type de microscope&#xa;Grossissement microscope&#xa;&#xa;&#xa;Echelle de l&apos;image (&#xb5;m /pixel)&#xa;Logiciel d&apos;analyse et version&#xa;&#xa;R&#xe9;f&#xe9;rence coloration produit critique&#xa;Nbre Champ de mesure&#xa;N&#xb0; photo&#xa;N&#xb0;identifiant de l&apos;organite" STYLE_REF="Tech_Typ_Metadata" ID="ID_649706578" CREATED="1549457812300" MODIFIED="1550238293329" LINK="template_example/histochemistryanalysis.xlsx" HGAP_QUANTITY="70.0 px" VSHIFT_QUANTITY="10.0 px"/>
 </node>
 </node>
 <node TEXT="Immune_diffusion" STYLE_REF="Tech_Typ_Level1" POSITION="right" ID="ID_1519333127" CREATED="1549029085419" MODIFIED="1549552243223" HGAP_QUANTITY="230.0 px" VSHIFT_QUANTITY="10.0 px">
